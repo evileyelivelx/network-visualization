@@ -60,7 +60,7 @@ def network_graph(yearRange, AccountToSearch):
     else:
         pos = nx.drawing.layout.spring_layout(G)
     for node in G.nodes:
-        G.nodes[node]['pos'] = list(pos[node])
+        G.nodes[node]['pos'] = list(pos[node]) 
 
 
     if len(shell2)==0:
